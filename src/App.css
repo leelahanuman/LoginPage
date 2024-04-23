@@ -1,0 +1,116 @@
+body{
+  background-image: url("https://images-eu.ssl-images-amazon.com/images/I/41g8yeF0NWL._AC_UL210_SR210,210_.jpg");
+
+}
+.form {
+  position: relative;
+  z-index: 1;
+  margin: 0 auto 100px;
+  padding: 45px;
+  text-align: center;
+  width:450px;
+  
+}
+
+.login-page {
+  /* width: 300px; */
+  padding: 8% 0 0;
+  margin: auto;
+
+}
+.login-page .form .login {
+  margin-top: -31px;
+  margin-bottom: 26px;
+  width: 100%;
+}
+
+.form input {
+  font-family: "Roboto", sans-serif;
+  outline: 0;
+  background: #f2f2f2;
+  width: 100%;
+  border: 0;
+  margin: 10px 0 5px;
+  padding: 15px;
+  box-sizing: border-box;
+  font-size: 14px;
+  border-radius: 10px;
+}
+.form button {
+  font-family: "Roboto", sans-serif;
+  /* text-transform: Lowercase; */
+  outline: 0;
+  background-color: #0f1010;
+  width: 100%;
+  border: 0;
+  padding: 15px;
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: bold;
+  -webkit-transition: all 0.3 ease;
+  transition: all 0.3 ease;
+  cursor: pointer;
+  border-radius: 10px;
+}
+.login p {
+  margin: 40px 0; /* Reduced margin for tighter layout */
+  color: rgb(245, 241, 241);
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+}
+.form .get{
+  border: 0;
+  padding: 15px;
+  color: #060606;
+  background-color:rgb(250, 246, 246);
+  font-size: 16px;
+  font-weight: bold;
+  -webkit-transition: all 0.3 ease;
+  transition: all 0.3 ease;
+  cursor: pointer;
+  border-radius: 10px;
+  text-align:center;
+}
+.img{
+  border-radius:50%;
+  margin-bottom: 100px ;
+  text-align:center;
+  width: 80px; 
+  height: 80px;
+
+}
+.sidebyside button{
+display: flex;
+align-items: center;
+font-family: "Roboto", sans-serif;
+  outline: 0;
+  background-color: #f2f8f8;
+  width:450px;
+  border: 0;
+  padding: px;
+  color: #1a1919;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 10px; 
+  text-align: center;
+  height: 50px;
+  margin:15px 15px 0px 0px;
+}
+.user-span {
+  display:flex;
+  align-items:center;
+  color:#f2f2f2;
+  font-size:12px;
+  margin:6px 6px ;
+}
+.form .forgot{
+  margin-right:0px;
+}
+.devIcon {
+  width: 24px; 
+  height: 24px;
+  margin-left:0px; 
+  margin-right: 20px; 
+}
